@@ -8,16 +8,22 @@
  *
  * Return: zero after at the end of the program
  */
-
 int main(void)
 {
-	for (char letter = 'a' ; letter <= 'z' ; letter++)
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
 		putchar(letter);
+		letter++;
 	}
-	for (char letter = 'A' ; letter <= 'Z' ; letter++)
+
+	letter = 'A';
+
+	while (letter <= 'Z')
 	{
 		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
