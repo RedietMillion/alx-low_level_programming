@@ -1,10 +1,10 @@
 #include "main.h"
 
-
 /**
 * main- an entry point to the program
 *
 *return: zero
+*
 */
 
 int main(void)
